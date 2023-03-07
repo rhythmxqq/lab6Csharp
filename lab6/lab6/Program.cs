@@ -12,17 +12,16 @@ public class Animal
 
     public virtual void makeNoise()
     {
-        Console.WriteLine("Животное спит");
+  
     }
 
     public virtual void eat()
     {
-        Console.WriteLine("Животное кушает");
     }
 
     public void sleep()
     {
-        Console.WriteLine("Животное спит");
+    
     }
 }
 
@@ -42,7 +41,7 @@ public class Dog : Animal
 
     public override void eat()
     {
-        Console.WriteLine("Собака кушает кости");
+        Console.WriteLine("Собака кушает мясо(eat)");
     }
 }
 
@@ -77,12 +76,12 @@ public class Horse : Animal
 
     public override void makeNoise()
     {
-        Console.WriteLine("Лошадь ржет");
+        Console.WriteLine("Лошадь кричит как-то иго-го-го");
     }
 
     public override void eat()
     {
-        Console.WriteLine("Лошадь кушает сено");
+        Console.WriteLine("Лошадь кушает пшено");
     }
 }
 
