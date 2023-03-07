@@ -41,7 +41,7 @@ public class Dog : Animal
 
     public override void eat()
     {
-        Console.WriteLine("Собака кушает мясо(eat)");
+        Console.WriteLine("Собака кушает " + food);
     }
 }
 
@@ -61,7 +61,7 @@ public class Cat : Animal
 
     public override void eat()
     {
-        Console.WriteLine("Кошка кушает рыбу");
+        Console.WriteLine("Кошка кушает " + food);
     }
 }
 
@@ -81,7 +81,7 @@ public class Horse : Animal
 
     public override void eat()
     {
-        Console.WriteLine("Лошадь кушает пшено");
+        Console.WriteLine("Лошадь кушает " + food);
     }
 }
 
